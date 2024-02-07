@@ -1,0 +1,42 @@
+config:
+  credentials: []
+  project_repos:
+    github.com/EOSC-synergy/sqaaas-tooling:
+      branch: release/2.0.0
+      repo: https://github.com/EOSC-synergy/sqaaas-tooling
+    github.com/stevenjgibbons/ccdtest:
+      branch: main
+      repo: https://github.com/stevenjgibbons/ccdtest
+environment:
+  JPL_DOCKERFORCEBUILD: enabled
+  JPL_KEEPGOING: enabled
+sqa_criteria:
+  QC.Acc:
+    repos:
+      github.com/stevenjgibbons/ccdtest git:
+        commands:
+        - /usr/bin/env sh .sqa/script.frumpy-teal-boar.sh
+        container: qc.acc_wimpy-puce-zonkey
+  QC.Doc:
+    repos:
+      github.com/stevenjgibbons/ccdtest find_doc_files.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.cranky-cardinal-serval.sh
+        container: qc.doc_silly-violet-bongo
+      github.com/stevenjgibbons/ccdtest git:
+        commands:
+        - /usr/bin/env sh .sqa/script.breezy-cobalt-wolverine.sh
+        container: qc.doc_beady-tangerine-molly
+  QC.Lic:
+    repos:
+      github.com/stevenjgibbons/ccdtest licensee:
+        commands:
+        - /usr/bin/env sh .sqa/script.gimpy-smalt-foxhound.sh
+        container: qc.lic_gimpy-buff-mayfly
+  QC.Ver:
+    repos:
+      github.com/stevenjgibbons/ccdtest get_git_tags.py:
+        commands:
+        - /usr/bin/env sh .sqa/script.flabby-amethyst-harrier.sh
+        container: qc.ver_pretty-magnolia-squirt
+timeout: 5400
