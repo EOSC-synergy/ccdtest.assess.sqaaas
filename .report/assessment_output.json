@@ -1155,10 +1155,10 @@
                 },
                 "silver": {
                     "to_fulfill": [
+                        "QC.Met",
                         "QC.Acc",
                         "QC.Lic",
                         "QC.Ver",
-                        "QC.Met",
                         "QC.Doc"
                     ],
                     "missing": [
@@ -1166,55 +1166,55 @@
                     ],
                     "fulfilled": [
                         "QC.Acc",
-                        "QC.Ver",
                         "QC.Lic",
+                        "QC.Ver",
                         "QC.Doc"
                     ]
                 },
                 "gold": {
                     "to_fulfill": [
+                        "QC.Met",
                         "QC.Acc",
+                        "QC.Lic",
                         "QC.Sec",
                         "QC.Uni",
-                        "QC.Lic",
-                        "QC.Ver",
                         "QC.Sty",
-                        "QC.Met",
+                        "QC.Ver",
                         "QC.Doc"
                     ],
                     "missing": [
+                        "QC.Met",
                         "QC.Sec",
                         "QC.Uni",
-                        "QC.Sty",
-                        "QC.Met"
+                        "QC.Sty"
                     ],
                     "fulfilled": [
                         "QC.Acc",
-                        "QC.Ver",
                         "QC.Lic",
+                        "QC.Ver",
                         "QC.Doc"
                     ]
                 }
             },
             "data": {
                 "entityType": "Assertion",
-                "entityId": "koAripEVTWmkz2SB342IhQ",
-                "openBadgeId": "https://api.eu.badgr.io/public/assertions/koAripEVTWmkz2SB342IhQ",
-                "createdAt": "2025-01-06T05:22:45.418869552Z",
+                "entityId": "qsH6fyjJQISCC5wUvskIAg",
+                "openBadgeId": "https://api.eu.badgr.io/public/assertions/qsH6fyjJQISCC5wUvskIAg",
+                "createdAt": "2025-01-24T10:37:42.423707057Z",
                 "createdBy": "aS1lWKgIR4u8bGjPZUzAyg",
                 "badgeclass": "UOmgyH_TSpSPXiro4aNBoQ",
                 "badgeclassOpenBadgeId": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ",
                 "issuer": "aS1lWKgIR4u8bGjPZUzAyg",
                 "issuerOpenBadgeId": "https://api.eu.badgr.io/public/issuers/aS1lWKgIR4u8bGjPZUzAyg",
-                "image": "https://api.eu.badgr.io/public/assertions/koAripEVTWmkz2SB342IhQ/image",
+                "image": "https://api.eu.badgr.io/public/assertions/qsH6fyjJQISCC5wUvskIAg/image",
                 "recipient": {
-                    "identity": "sha256$41ca5f4ef05e6766fa4ce855fc16dab7b9cafe44483b9044f1615b7725ea2684",
+                    "identity": "sha256$398b82a0510ed62341c99e5703bc6d47d01af340691e2f3bdb4ead541949823f",
                     "hashed": true,
                     "type": "url",
-                    "salt": "5fGz0KHPIhDGXlsY",
+                    "salt": "17tBVrLlUnLNfgrh",
                     "plaintextIdentity": "https://github.com/stevenjgibbons/ccdtest"
                 },
-                "issuedOn": "2025-01-06T05:22:45.418871595Z",
+                "issuedOn": "2025-01-24T10:37:42.423707673Z",
                 "narrative": "SQAaaS assessment results for repository https://github.com/stevenjgibbons/ccdtest (commit: aad01f99cd34693c6acbdb6bd66a54de70a7734c, branch/tag: main)",
                 "evidence": [
                     {
@@ -1232,7 +1232,7 @@
                 "expires": null,
                 "extensions": {},
                 "assertionRef": {
-                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/koAripEVTWmkz2SB342IhQ"
+                    "assertionUrl": "https://api.eu.badgr.io/public/assertions/qsH6fyjJQISCC5wUvskIAg"
                 },
                 "badgeRef": {
                     "badgeUrl": "https://api.eu.badgr.io/public/badges/UOmgyH_TSpSPXiro4aNBoQ"
@@ -1244,10 +1244,10 @@
                 "source": "local",
                 "sourceUrl": null,
                 "originalJson": null,
-                "imagePath": "uploads/badges/assertion-koAripEVTWmkz2SB342IhQ.png"
+                "imagePath": "uploads/badges/assertion-qsH6fyjJQISCC5wUvskIAg.png"
             },
-            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/koAripEVTWmkz2SB342IhQ?identity__url=https%3A//github.com/EOSC-synergy/ccdtest.assess.sqaaas/commit/1efddea726fc60a44fcc57c144b0ef3daaec415f\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/koAripEVTWmkz2SB342IhQ/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
-            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FkoAripEVTWmkz2SB342IhQ?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fccdtest.assess.sqaaas%2Fcommit%2F1efddea726fc60a44fcc57c144b0ef3daaec415f&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fccdtest.assess.sqaaas%2Fcommit%2F1efddea726fc60a44fcc57c144b0ef3daaec415f"
+            "share": "<!--\nSPDX-FileCopyrightText: Copyright contributors to the Software Quality Assurance as a Service (SQAaaS) project <sqaaas@ibergrid.eu>\nSPDX-FileContributor: Pablo Orviz <orviz@ifca.unican.es>\n\nSPDX-License-Identifier: GPL-3.0-only\n-->\n\n<blockquote class=\"badgr-badge\" style=\"font-family: Helvetica, Roboto, &quot;Segoe UI&quot;, Calibri, sans-serif;\"><a href=\"https://api.eu.badgr.io/public/assertions/qsH6fyjJQISCC5wUvskIAg?identity__url=https%3A//github.com/EOSC-synergy/ccdtest.assess.sqaaas/commit/1efddea726fc60a44fcc57c144b0ef3daaec415f\"><img width=\"120px\" height=\"120px\" src=\"https://api.eu.badgr.io/public/assertions/qsH6fyjJQISCC5wUvskIAg/image\"></a><script async=\"async\" src=\"https://eu.badgr.com/assets/widgets.bundle.js\"></script></blockquote>",
+            "verification_url": "https://badgecheck.io/?url=https%3A%2F%2Fapi.eu.badgr.io%2Fpublic%2Fassertions%2FqsH6fyjJQISCC5wUvskIAg?identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fccdtest.assess.sqaaas%2Fcommit%2F1efddea726fc60a44fcc57c144b0ef3daaec415f&amp;identity__url=https%3A%2F%2Fgithub.com%2FEOSC-synergy%2Fccdtest.assess.sqaaas%2Fcommit%2F1efddea726fc60a44fcc57c144b0ef3daaec415f"
         }
     }
 }
